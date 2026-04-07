@@ -6,9 +6,13 @@
 html{
   scroll-behavior: smooth;
 }
+body{
+  font-family: var(--primary-font);
+}
 :root{
   --white: #fff;
   --black: #000;
   --primary-font:"Roboto", sans-serif;
   --secondary-font: "Alegreya Sans", sans-serif;
+  --primary-color:#3d5f00;
 }
