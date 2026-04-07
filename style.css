@@ -16,3 +16,28 @@ body{
   --secondary-font: "Alegreya Sans", sans-serif;
   --primary-color:#3d5f00;
 }
+
+/* First Nav Section Start */
+.firstNav{
+  background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  padding: 0 55px;
+}
+.firstNav .search-icon input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.firstNav .search-icon input::placeholder{
+  color: var(--white);
+  font-size: 16.67px;
+}
+.firstNav .logo{
+  justify-self: center;
+}
+.firstNav .signIn{
+  justify-self: end;
+}
+/* First Nav Section End */
