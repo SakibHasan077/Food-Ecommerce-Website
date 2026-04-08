@@ -14,7 +14,7 @@ body{
   --black: #000;
   --primary-font:"Roboto", sans-serif;
   --secondary-font: "Alegreya Sans", sans-serif;
-  --primary-color:#3d5f00;
+  --primary-color:#255506;
 }
 
 /* First Nav Section Start */
@@ -29,15 +29,58 @@ body{
   background-color: transparent;
   border: none;
   outline: none;
+  border-bottom: 2px solid var(--white);
+  width: 290px;
+  padding-bottom: 15px;
+  color: var(--white);
 }
 .firstNav .search-icon input::placeholder{
   color: var(--white);
+  font-weight: 200;
   font-size: 16.67px;
+}
+.firstNav .search-icon img{
+  height: 23px;
+  margin-left: -28px;
+  cursor: pointer;
 }
 .firstNav .logo{
   justify-self: center;
+  padding: 10px 0;
 }
 .firstNav .signIn{
   justify-self: end;
+  display: flex;
+  align-items: center;
+}
+.firstNav .signIn{
+  justify-self: end;
+  display: flex;
+  align-items: center;
+}
+.firstNav .signIn .login-register a{
+  color: var(--white);
+  text-decoration: none;
+}
+.firstNav .signIn .icons{
+  display: flex;
+  margin-left: 25px;
+  gap: 39px;
+}
+.firstNav .signIn .icons .first-img, .firstNav .signIn .icons .second-img {
+  position: relative;
+  cursor: pointer;
+
+}
+.firstNav .signIn .icons .first-img::after, .firstNav .signIn .icons .second-img::after{
+  content: "1";
+  font-size: 13.67px;
+  color: var(--white);
+  background-color: #448212;
+  border-radius: 50%;
+  padding: 2px 6px;
+  position: absolute;
+  top: -12px;
+  right: -19px;
 }
 /* First Nav Section End */
