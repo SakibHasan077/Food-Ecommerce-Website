@@ -85,8 +85,63 @@ body{
 }
 /* First Nav Section End */
 @media (max-width: 1200px) {
+  /* First Nav  */
+  .firstNav{
+    min-height: 81px;
+  }
+  .firstNav .search-icon input{
+    width: 280px;
+    padding-bottom: 10px;
+  }.firstNav .search-icon img{
+    padding-top: 5px;
+  }
+
 }
 @media (max-width: 992px) {
+  /* First Nav */
+  .firstNav{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .firstNav .search-icon{
+    grid-row: 2/3;
+    grid-column: 1/-1;;
+  }
+  .firstNav .search-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+    margin: auto;
+    margin-left: 9.6875rem;
+    padding: 0 20px;
+  }
+  .firstNav .search-icon input{
+    background-color: transparent;
+    border-bottom: 0px;
+    border: 2px solid var(--white);
+    border-radius: 10px;
+    width: 100%;
+    padding-bottom: 0px;
+    padding: 10px ;
+    color: var(--black);
+    margin-bottom: 20px;
+  }
+  .firstNav .search-icon input::placeholder{
+    color: gray;
+    font-weight: 200;
+    font-size: 16.67px;
+  }
+  .firstNav .logo{
+    justify-self: center;
+  }
+  .firstNav .signIn{
+    justify-self: center;
+  }
+  .firstNav .search-icon img{
+    height: 23px;
+    margin-left: -50px;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
 }
 @media (max-width: 768px) {
 }
