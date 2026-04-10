@@ -83,6 +83,29 @@ body{
   top: -12px;
   right: -19px;
 }
+/* Main Nav Start */
+.mainNav{
+  background-color: var(--white);
+  min-height: 80px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainNav ul{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  align-items: center;
+}
+.mainNav ul li a{
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 20.58px;
+
+}
+/* Main Nav End */
 /* First Nav Section End */
 @media (max-width: 1200px) {
   /* First Nav  */
