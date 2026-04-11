@@ -118,7 +118,10 @@ body{
   }.firstNav .search-icon img{
     padding-top: 5px;
   }
-
+  /* Main Nav */
+  .mainNav ul li a{
+    font-size: 19.58px;
+  }
 }
 @media (max-width: 992px) {
   /* First Nav */
@@ -167,6 +170,10 @@ body{
     margin-right: 10px;
     margin-top: 5px;
   }
+  /* Main Nav */
+  .mainNav ul li a{
+    font-size: 18.58px;
+  }
 }
 @media (max-width: 768px) {
   /* First Nav */
@@ -182,6 +189,10 @@ body{
   .firstNav .signIn{
     margin-right: 15px;
   }
+  /* Main Nav */
+  .mainNav ul li a{
+    font-size: 17.58px;
+  }
 }
 @media (max-width: 576px) {
   /* First Nav */
@@ -189,6 +200,13 @@ body{
     align-items: center;
     flex-direction: column-reverse;
     gap: 5px;
+  }
+  /* Main Nav */
+  .mainNav ul li a{
+    font-size: 16.58px;
+  }
+  .mainNav ul{
+    gap: 20px;
   }
 
 }
