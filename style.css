@@ -107,6 +107,13 @@ body{
 }
 /* Main Nav End */
 /* First Nav Section End */
+/* Hero Section Start */
+main{
+  min-height: 100vh;
+  background-image: url(./image/hero-bg.png);
+  background-size: cover;
+}
+/* Hero Section End */
 @media (max-width: 1200px) {
   /* First Nav  */
   .firstNav{
