@@ -113,6 +113,33 @@ main{
   background-image: url(./image/hero-bg.png);
   background-size: cover;
 }
+.hero-container{
+  margin:  0 55px;
+}
+.hero-container h1{
+  padding-top: 220px;
+  font-size: 67px;
+  color: var(--primary-color);
+  margin-bottom: 25px;
+}
+.hero-container h2{
+  font-size: 45px;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+
+}
+.hero-container span{
+  display: block;
+  width: 355px;
+  height: 2px;
+  background-color: var(--primary-color);
+  margin-bottom: 30px;
+}
+.hero-container p{
+  font-size: 20px;
+  color: var(--primary-color);
+}
 /* Hero Section End */
 @media (max-width: 1200px) {
   /* First Nav  */
