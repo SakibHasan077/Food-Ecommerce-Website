@@ -16,7 +16,19 @@ body{
   --secondary-font: "Alegreya Sans", sans-serif;
   --primary-color:#255506;
 }
-
+/* Main Button  */
+.mainBtn , .mainArrowBtn{
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  color: var(--white);
+  padding: 20px 40px;
+  font-size: 20.83px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  cursor: pointer;
+}
+/* Same Classes */
 /* First Nav Section Start */
 .firstNav{
   background-color: var(--primary-color);
@@ -139,6 +151,9 @@ main{
 .hero-container p{
   font-size: 20px;
   color: var(--primary-color);
+}
+.heroBtn,.heroArrowBtn{
+  margin-top: 65px;
 }
 /* Hero Section End */
 @media (max-width: 1200px) {
