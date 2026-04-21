@@ -180,6 +180,8 @@ main{
 .about-us-content{
   margin: 0 55px;
   margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
 }
 .about-us-content h3{
   font-size: 42px;
@@ -194,6 +196,17 @@ main{
 }
 .about-us-Btn, .about-us-ArrowBtn{
   margin-top: 30px;
+}
+.about-image-container{
+  width: 530px;
+  height: 500px;
+  background:
+    linear-gradient(rgba(126,156,104,0.68), rgba(126,156,104,0.68)),
+    url(./image/about-main-img.png);
+  filter: contrast(220%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /* About Us Section End */
 @media (max-width: 1200px) {
