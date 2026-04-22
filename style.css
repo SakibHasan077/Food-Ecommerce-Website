@@ -207,6 +207,17 @@ main{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+}
+.about-image-container .side-border-shape .image-1{
+  position: absolute;
+  left: -25px;
+  top: -25px;
+}
+.about-image-container .side-border-shape .image-2{
+  position: absolute;
+  left: -25px;
+  top: -25px;
 }
 /* About Us Section End */
 @media (max-width: 1200px) {
