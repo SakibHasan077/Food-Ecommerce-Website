@@ -256,7 +256,7 @@ main{
   }
   /* About Us Section */
   .about-us-content{
-    gap: 10px;
+    gap: 20px;
   }
   .about-item-1{
     flex-basis: 48%;
@@ -279,6 +279,9 @@ main{
   }
   .about-image-box{
     flex-basis: 48%;
+  }
+  .about-image-box .about-image-container{
+    width: 100%;
   }
 }
 @media (max-width: 992px) {
