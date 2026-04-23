@@ -355,6 +355,34 @@ main{
   .hero-container p{
     font-size: 19px;
   }
+  /* About Us Section */
+  .about-us-content{
+    gap: 30px;
+    margin: 100px 25px 0;
+  }
+  .about-us .line-br{
+    display: none;
+  }
+  .about-us-content p {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+  .about-us-content h3{
+    font-size: 37px;
+    margin-bottom: 20px;
+    word-break: break-all;
+  }
+  .about-us-Btn, .about-us-ArrowBtn{
+    margin-top: 23px;
+  }
+  .about-image-container .side-border-shape .image-1{
+    left: -20px;
+    top: -20px;
+  }
+  .about-image-container .side-border-shape .image-2{
+    left: -20px;
+    top: -20px;
+  }
 }
 @media (max-width: 768px) {
   /* Same Classes */
