@@ -434,7 +434,32 @@ main{
   .hero-container p{
     font-size: 18px;
   }
-
+  /* About Us Section */
+  .about-us-content{
+    margin: 100px 55px;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .about-us-content h3{
+    font-size: 42px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+  }
+  .about-us-content p{
+    font-size: 23px ;
+    margin-bottom: 20px;
+  }
+  .about-us-Btn, .about-us-ArrowBtn{
+    margin-top: 30px;
+  }
+  .about-image-container .side-border-shape .image-1{
+    left: -25px;
+    top: -25px;
+  }
+  .about-image-container .side-border-shape .image-2{
+    left: -25px;
+    top: -25px;
+  }
 }
 @media (max-width: 576px) {
   /* First Nav */
@@ -453,6 +478,29 @@ main{
   /* Hero section */
   .hero-container p br{
     display: none;
+  }
+  /* About Us Section */
+  /* About Us Section */
+  .about-us-content{
+    margin: 100px 40px;
+  }
+  .about-us-content h3{
+    font-size: 35px;
+  }
+  .about-us-content p{
+    font-size: 19px ;
+    margin-bottom: 20px;
+  }
+  .about-us-Btn, .about-us-ArrowBtn{
+    margin-top: 30px;
+  }
+  .about-image-container .side-border-shape .image-1{
+    left: -25px;
+    top: -25px;
+  }
+  .about-image-container .side-border-shape .image-2{
+    left: -25px;
+    top: -25px;
   }
 
 }
