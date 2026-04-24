@@ -183,6 +183,9 @@ main{
   display: flex;
   justify-content: space-between;
 }
+.about-us-container-reverse{
+  flex-direction: row-reverse;
+}
 .about-us-content h3{
   font-size: 42px;
   font-weight: 500;
