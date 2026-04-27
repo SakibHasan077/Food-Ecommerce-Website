@@ -272,6 +272,7 @@ main{
 .image-sec img{
   width: 100%;
   max-width: 450px;
+  height: fit-content;
 }
 
 /* Service Section End */
@@ -331,6 +332,19 @@ main{
   }
   .about-image-box .about-image-container{
     width: 100%;
+  }
+  /* Service Section */
+  .service-content .service-item{
+    gap: 20px;
+  }
+  .service-item h3{
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  .service-item p{
+    font-size: 19px;
+    margin-bottom: 25px;
+    line-height: 1.5;
   }
 }
 @media (max-width: 992px) {
@@ -436,6 +450,26 @@ main{
     left: -20px;
     top: -20px;
   }
+  /* Service Section */
+  .service-content {
+    margin: 100px 20px;
+  }
+  .service-content .service-item{
+    gap: 20px;
+  }
+  .service-item h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .service-item p{
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+  }
+  .service-Btn{
+    padding: 10px 30px ;
+    font-size: 18px;
+  }
 }
 @media (max-width: 768px) {
   /* Same Classes */
@@ -512,6 +546,32 @@ main{
   .about-image-container .side-border-shape .image-2{
     left: -25px;
     top: -25px;
+  }
+  /* Service Section */
+  .service-content {
+    margin: 100px 55px;
+  }
+  .service-content .service-item{
+    gap: 20px;
+    flex-direction: column-reverse;
+  }
+  .service-item h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .service-item p{
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+  }
+  .service-Btn{
+    padding: 10px 30px ;
+    font-size: 18px;
+  }
+  .service-content .service-item .image-sec{
+    flex-basis: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 576px) {
