@@ -229,6 +229,41 @@ main{
   transform: translate(-50% , -50%);
 }
 /* About Us Section End */
+/* Service Section Start */
+.service-content {
+  margin: 100px 55px;
+}
+.service-content .service-item{
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-content .service-item .content{
+  flex-basis: 50%;
+}
+
+.service-item h3{
+  display: flex;
+  justify-content: space-between;
+  font-size: 37px;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+  padding-right: 20px;
+}
+
+.service-item p{
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+.service-Btn{
+  padding: 14px 35px ;
+  cursor: pointer;
+}
+
+/* Service Section End */
 @media (max-width: 1200px) {
   /* First Nav  */
   .firstNav{
