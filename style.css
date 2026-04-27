@@ -263,6 +263,17 @@ main{
   cursor: pointer;
 }
 
+.service-content .service-item .image-sec{
+  flex-basis: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-sec img{
+  width: 100%;
+  max-width: 450px;
+}
+
 /* Service Section End */
 @media (max-width: 1200px) {
   /* First Nav  */
