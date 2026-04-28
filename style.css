@@ -231,9 +231,10 @@ main{
 /* About Us Section End */
 /* Service Section Start */
 .service-content {
-  margin: 100px 55px;
+  margin: 50px 55px;
 }
 .service-content .service-item{
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
 }
