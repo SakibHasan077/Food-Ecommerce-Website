@@ -277,6 +277,47 @@ main{
 }
 
 /* Service Section End */
+/* Promo Section Start */
+.promo-section {
+  background: #f4f4f4;
+  padding: 60px 55px;
+  background-image: url(./image/discount-bg.png);
+  margin-top: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 450px;
+}
+
+.promo-content .tag{
+  font-size: 30px;
+  color: var(--primary-color);
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 1rem;
+}
+
+.promo-content h2{
+  font-size: 45px;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.promo-content h4{
+  font-size: 35px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  font-weight: 500;
+  letter-spacing: 6px;
+}
+
+.promo-content .desc{
+  font-size: 25px;
+  color: var(--primary-color);
+  margin-bottom: 40px;
+  line-height: 1.4;
+}
+/* Promo Section End */
 @media (max-width: 1200px) {
   /* First Nav  */
   .firstNav{
