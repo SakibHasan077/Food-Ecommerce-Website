@@ -317,6 +317,9 @@ main{
   margin-bottom: 40px;
   line-height: 1.4;
 }
+.promo-content .promoBtn{
+  cursor: pointer;
+}
 /* Promo Section End */
 @media (max-width: 1200px) {
   /* First Nav  */
