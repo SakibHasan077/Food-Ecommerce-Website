@@ -391,6 +391,22 @@ main{
     margin-bottom: 25px;
     line-height: 1.5;
   }
+  /* Promo Section */
+  .promo-content .tag{
+    font-size: 28px;
+  }
+
+  .promo-content h2{
+    font-size: 43px;
+  }
+
+  .promo-content h4{
+    font-size: 33px;
+  }
+
+  .promo-content .desc{
+    font-size: 23px;
+  }
 }
 @media (max-width: 992px) {
   /* Same Classes */
@@ -514,6 +530,30 @@ main{
   .service-Btn{
     padding: 10px 30px ;
     font-size: 18px;
+  }
+
+  /* Promo Section */
+  .promo-content .tag{
+    font-size: 26px;
+    margin-top: 20px;
+  }
+
+  .promo-content h2{
+    font-size: 40px;
+  }
+
+  .promo-content h4{
+    font-size: 30px;
+    margin-bottom: 17px;
+  }
+
+  .promo-content .desc{
+    font-size: 21px;
+    margin-bottom: 35px;
+    line-height: 1.3;
+  }
+  .promo-content .promoBtn{
+    font-size: 19px;
   }
 }
 @media (max-width: 768px) {
