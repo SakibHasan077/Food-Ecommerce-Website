@@ -321,6 +321,12 @@ main{
   cursor: pointer;
 }
 /* Promo Section End */
+/* Second Promo */
+.second-promo{
+  background-image: url(./image/second-promo-bg.png);
+  text-align: right;
+}
+/* Second Promo */
 @media (max-width: 1200px) {
   /* First Nav  */
   .firstNav{
