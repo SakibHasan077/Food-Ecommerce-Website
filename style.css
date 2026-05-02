@@ -3,12 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html{
   scroll-behavior: smooth;
 }
+
 body{
   font-family: var(--primary-font);
 }
+
 :root{
   --white: #fff;
   --black: #000;
@@ -16,6 +19,7 @@ body{
   --secondary-font: "Alegreya Sans", sans-serif;
   --primary-color:#255506;
 }
+
 /* Main Button  */
 .mainBtn , .mainArrowBtn{
   background-color: var(--primary-color);
@@ -27,21 +31,25 @@ body{
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
+
 .mainArrowBtn{
   margin-left: 20px;
   cursor: pointer;
 }
+
 /* Sub Header  */
 .title{
   margin-top: 100px;
   text-align: center;
 }
+
 .subHeader{
   font-size: 45px;
   font-weight: 700;
   color: var(--primary-color);
   margin-bottom: 26px;
 }
+
 .title p{
   font-size: 20px;
   color: var(--primary-color);
@@ -49,6 +57,7 @@ body{
 }
 
 /* Same Classes */
+
 /* First Nav Section Start */
 .firstNav{
   background-color: var(--primary-color);
@@ -57,6 +66,7 @@ body{
   align-items: center;
   padding: 0 55px;
 }
+
 .firstNav .search-icon input{
   background-color: transparent;
   border: none;
@@ -66,44 +76,53 @@ body{
   padding-bottom: 15px;
   color: var(--white);
 }
+
 .firstNav .search-icon input::placeholder{
   color: var(--white);
   font-weight: 200;
   font-size: 16.67px;
 }
+
 .firstNav .search-icon img{
   height: 23px;
   margin-left: -28px;
   cursor: pointer;
 }
+
 .firstNav .logo{
   justify-self: center;
   padding: 10px 0;
 }
+
 .firstNav .signIn{
   justify-self: end;
   display: flex;
   align-items: center;
 }
+
 .firstNav .signIn{
   justify-self: end;
   display: flex;
   align-items: center;
 }
+
 .firstNav .signIn .login-register a{
   color: var(--white);
   text-decoration: none;
 }
+
 .firstNav .signIn .icons{
   display: flex;
   margin-left: 25px;
   gap: 39px;
 }
+
 .firstNav .signIn .icons .first-img, .firstNav .signIn .icons .second-img {
   position: relative;
   cursor: pointer;
 
 }
+
 .firstNav .signIn .icons .first-img::after, .firstNav .signIn .icons .second-img::after{
   content: "1";
   font-size: 13.67px;
@@ -115,6 +134,7 @@ body{
   top: -12px;
   right: -19px;
 }
+
 /* Main Nav Start */
 .mainNav{
   background-color: var(--white);
@@ -124,6 +144,7 @@ body{
   align-items: center;
   justify-content: center;
 }
+
 .mainNav ul{
   display: flex;
   justify-content: center;
@@ -131,6 +152,7 @@ body{
   list-style: none;
   align-items: center;
 }
+
 .mainNav ul li a{
   text-decoration: none;
   color: var(--primary-color);
@@ -139,21 +161,25 @@ body{
 }
 /* Main Nav End */
 /* First Nav Section End */
+
 /* Hero Section Start */
 main{
   min-height: 100vh;
   background-image: url(./image/hero-bg.png);
   background-size: cover;
 }
+
 .hero-container{
   margin:  0 55px;
 }
+
 .hero-container h1{
   padding-top: 100px;
   font-size: 67px;
   color: var(--primary-color);
   margin-bottom: 25px;
 }
+
 .hero-container h2{
   font-size: 45px;
   font-weight: 500;
@@ -161,6 +187,7 @@ main{
   margin-bottom: 30px;
 
 }
+
 .hero-container span{
   display: block;
   width: 355px;
@@ -168,14 +195,17 @@ main{
   background-color: var(--primary-color);
   margin-bottom: 30px;
 }
+
 .hero-container p{
   font-size: 20px;
   color: var(--primary-color);
 }
+
 .heroBtn,.heroArrowBtn{
   margin-top: 65px;
 }
 /* Hero Section End */
+
 /* About Us Section Start */
 .about-us-content{
   margin: 0 55px;
@@ -183,23 +213,28 @@ main{
   display: flex;
   justify-content: space-between;
 }
+
 .about-us-container-reverse{
   flex-direction: row-reverse;
 }
+
 .about-us-content h3{
   font-size: 42px;
   font-weight: 500;
   color: var(--primary-color);
   margin-bottom: 25px;
 }
+
 .about-us-content p{
   font-size: 23px ;
   color: var(--primary-color);
   margin-bottom: 20px;
 }
+
 .about-us-Btn, .about-us-ArrowBtn{
   margin-top: 30px;
 }
+
 .about-image-container{
   width: 500px;
   height: 500px;
@@ -212,16 +247,19 @@ main{
   background-repeat: no-repeat;
   position: relative;
 }
+
 .about-image-container .side-border-shape .image-1{
   position: absolute;
   left: -25px;
   top: -25px;
 }
+
 .about-image-container .side-border-shape .image-2{
   position: absolute;
   left: -25px;
   top: -25px;
 }
+
 .about-image-container .youtube-logo{
   position: absolute;
   left: 50%;
@@ -229,10 +267,12 @@ main{
   transform: translate(-50% , -50%);
 }
 /* About Us Section End */
+
 /* Service Section Start */
 .service-content {
   margin: 50px 55px;
 }
+
 .service-content .service-item{
   padding-top: 50px;
   display: flex;
@@ -259,6 +299,7 @@ main{
   margin-bottom: 30px;
   line-height: 1.6;
 }
+
 .service-Btn{
   padding: 14px 35px ;
   cursor: pointer;
@@ -317,6 +358,7 @@ main{
   margin-bottom: 40px;
   line-height: 1.4;
 }
+
 .promo-content .promoBtn{
   cursor: pointer;
 }
@@ -332,71 +374,89 @@ main{
   .firstNav{
     min-height: 81px;
   }
+
   .firstNav .search-icon input{
     width: 280px;
     padding-bottom: 10px;
   }.firstNav .search-icon img{
     padding-top: 5px;
   }
+
   /* Main Nav */
   .mainNav ul li a{
     font-size: 19.58px;
   }
+
   /* hero section  */
   .hero-container h1{
     font-size: 60px;
   }
+
   .hero-container h2{
     font-size: 40px;
   }
+
   .hero-container span{
     width: 340px;
   }
+
   .hero-container p{
     font-size: 19px;
   }
+
   /* About Us Section */
   .about-us-content{
     gap: 20px;
   }
+
   .about-item-1{
     flex-basis: 48%;
   }
+
   .about-us .line-br{
     display: none;
   }
+
   .about-us-content p {
     text-align: justify;
     font-size: 22px;
     margin-bottom: 16px;
-}
+  }
+
   .about-us-content h3{
     font-size: 40px;
     margin-bottom: 22px;
     word-break: break-all;
   }
+
   .about-us-Btn, .about-us-ArrowBtn{
     margin-top: 25px;
   }
+
   .about-image-box{
     flex-basis: 48%;
   }
+
   .about-image-box .about-image-container{
     width: 100%;
   }
+
   /* Service Section */
   .service-content .service-item{
     gap: 20px;
   }
+
   .service-item h3{
     font-size: 35px;
     margin-bottom: 25px;
   }
+
   .service-item p{
     font-size: 19px;
     margin-bottom: 25px;
     line-height: 1.5;
   }
+
   /* Promo Section */
   .promo-content .tag{
     font-size: 28px;
@@ -421,19 +481,23 @@ main{
     padding: 17px 34px;
     font-size: 20px;
   }
+
   /* Sub Header  */
   .subHeader{
     font-size: 43px;
   }
+
   /* Same Classes */
   /* First Nav */
   .firstNav{
     grid-template-columns: repeat(2,1fr);
   }
+
   .firstNav .search-icon{
     grid-row: 2/3;
     grid-column: 1/-1;;
   }
+
   .firstNav .search-icon{
     display: flex;
     justify-content: space-between;
@@ -442,6 +506,7 @@ main{
     /* margin-left: 6.6875rem; */
     padding: 0 20px;
   }
+
   .firstNav .search-icon input{
     background-color: transparent;
     border-bottom: 0px;
@@ -453,86 +518,107 @@ main{
     color: var(--black);
     margin-bottom: 20px;
   }
+
   .firstNav .search-icon input::placeholder{
     color: gray;
     font-weight: 200;
     font-size: 16.67px;
   }
+
   .firstNav .logo{
     justify-self: start;
     margin-left: 22px;
   }
+
   .firstNav .signIn{
     justify-self: end;
     margin-right: 22px;
   }
+
   .firstNav .search-icon img{
     height: 23px;
     margin-left: -50px;
     margin-right: 10px;
     margin-top: 5px;
   }
+
   /* Main Nav */
   .mainNav ul li a{
     font-size: 18.58px;
   }
+
   /* hero section  */
   .hero-container h1{
     font-size: 57px;
   }
+
   .hero-container h2{
     font-size: 37px;
   }
+
   .hero-container span{
     width: 336px;
   }
+
   .hero-container p{
     font-size: 19px;
   }
+
   /* About Us Section */
   .about-us-content{
     gap: 30px;
     margin: 100px 25px 0;
   }
+
   .about-us .line-br{
     display: none;
   }
+
   .about-us-content p {
     font-size: 20px;
     margin-bottom: 16px;
-}
+  }
+
   .about-us-content h3{
     font-size: 37px;
     margin-bottom: 20px;
     word-break: break-all;
   }
+
   .about-us-Btn, .about-us-ArrowBtn{
     margin-top: 23px;
   }
+
   .about-image-container .side-border-shape .image-1{
     left: -20px;
     top: -20px;
   }
+
   .about-image-container .side-border-shape .image-2{
     left: -20px;
     top: -20px;
   }
+
   /* Service Section */
   .service-content {
     margin: 100px 20px;
   }
+
   .service-content .service-item{
     gap: 20px;
   }
+
   .service-item h3{
     font-size: 32px;
     margin-bottom: 20px;
   }
+
   .service-item p{
     font-size: 18px;
     margin-bottom: 25px;
     line-height: 1.2;
   }
+
   .service-Btn{
     padding: 10px 30px ;
     font-size: 18px;
@@ -558,6 +644,7 @@ main{
     margin-bottom: 35px;
     line-height: 1.3;
   }
+
   .promo-content .promoBtn{
     font-size: 19px;
   }
@@ -568,102 +655,127 @@ main{
   .mainBtn , .mainArrowBtn{
     padding: 16px 32px;
   }
+
   /* Same Classes */
   /* First Nav */
   .firstNav{
     padding: 0 10px;
   }
+
   .firstNav .search-icon{
     padding: 0;
   }
+
   .firstNav .logo{
     margin-left: 0px;
   }
+
   .firstNav .signIn{
     margin-right: 15px;
   }
+
   /* Main Nav */
   .mainNav ul li a{
     font-size: 17.58px;
   }
+
   /* Hero section */
   main{
     background-position: center;
   }
+
   .hero-container{
     text-align: center;
     padding: 0 0px;
   }
+
   .hero-container span{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
   }
+
   /* hero section  */
   .hero-container h1{
     font-size: 50px;
   }
+
   .hero-container h2{
     font-size: 33px;
   }
+
   .hero-container span{
     width: 350px;
   }
+
   .hero-container p{
     font-size: 18px;
   }
+
   /* About Us Section */
   .about-us-content{
     margin: 100px 55px;
     flex-direction: column-reverse;
     justify-content: center;
   }
+
   .about-us-content h3{
     font-size: 42px;
     margin-bottom: 25px;
     margin-top: 50px;
   }
+
   .about-us-content p{
     font-size: 23px ;
     margin-bottom: 20px;
   }
+
   .about-us-Btn, .about-us-ArrowBtn{
     margin-top: 30px;
   }
+
   .about-image-container .side-border-shape .image-1{
     left: -25px;
     top: -25px;
   }
+
   .about-image-container .side-border-shape .image-2{
     left: -25px;
     top: -25px;
   }
+
   /* Service Section */
   .service-content {
     margin: 100px 55px;
   }
+
   .service-content .service-item{
     gap: 20px;
     flex-direction: column-reverse;
   }
+
   .service-item h3{
     font-size: 32px;
     margin-bottom: 20px;
   }
+
   .service-item p{
     font-size: 18px;
     margin-bottom: 25px;
     line-height: 1.5;
   }
+
   .service-Btn{
     padding: 10px 30px ;
     font-size: 18px;
   }
+
   .service-content .service-item .image-sec{
     flex-basis: 100%;
     justify-content: center;
     margin-bottom: 50px;
   }
+
   /* Promo Section */
   .promo-section {
     margin-top: 100px;
@@ -686,6 +798,7 @@ main{
     font-size: 20px;
     line-height: 1.3;
   }
+
   .promo-content .desc br{
     display: none;
   }
@@ -697,50 +810,61 @@ main{
     font-size: 40px;
     margin-bottom: 26px;
   }
+
   .title .line-break{
     display: none;
   }
+
   /* Same Classes */
   /* First Nav */
+
   .firstNav .signIn{
     align-items: center;
     flex-direction: column-reverse;
     gap: 5px;
   }
+
   /* Main Nav */
   .mainNav ul li a{
     font-size: 16.58px;
   }
+
   .mainNav ul{
     gap: 20px;
   }
+
   /* Hero section */
   .hero-container p br{
     display: none;
   }
   /* About Us Section */
-  /* About Us Section */
   .about-us-content{
     margin: 100px 40px;
   }
+
   .about-us-content h3{
     font-size: 35px;
   }
+
   .about-us-content p{
     font-size: 19px ;
     margin-bottom: 20px;
   }
+
   .about-us-Btn, .about-us-ArrowBtn{
     margin-top: 30px;
   }
+
   .about-image-container .side-border-shape .image-1{
     left: -25px;
     top: -25px;
   }
+
   .about-image-container .side-border-shape .image-2{
     left: -25px;
     top: -25px;
   }
+
   /* Promo Section */
   .promo-content .tag{
     font-size: 22px;
@@ -762,6 +886,7 @@ main{
     margin-bottom: 30px;
     line-height: 1.2;
   }
+
   .promo-content .promoBtn{
     font-size: 18px;
   }
