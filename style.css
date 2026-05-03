@@ -363,6 +363,66 @@ main{
   cursor: pointer;
 }
 /* Promo Section End */
+
+/* Pricing Section Start */
+.PricingGrid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.5rem;
+  margin: 110px 55px 0;
+}
+
+.pricing-items .items-container{
+  background-color: #f0f0f0;
+  max-width: 370px;
+  border-radius: 10px;
+}
+
+.pricing-img-sec{
+  position: relative;
+}
+
+.pricing-img-sec img{
+  width: 100%;
+  height: fit-content;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.pricing-img-sec .pricing-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  color: var(--white);
+  text-align: center;
+}
+
+.pricing-img-sec .pricing-title p{
+  font-size: 40px;
+}
+
+.pricing-img-sec .pricing-title h3{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.pricing-content{
+  margin-top: 60px;
+  text-align: center;
+}
+
+.pricing-content p{
+  padding-bottom: 20px;
+  font-size: 25px;
+  color: var(--primary-color);
+}
+
+.pricingBtn{
+  margin: 30px 0 50px;
+}
+/* Pricing Section End */
+
 /* Second Promo */
 .second-promo{
   background-image: url(./image/second-promo-bg.png);
