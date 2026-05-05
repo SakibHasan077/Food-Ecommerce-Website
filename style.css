@@ -915,6 +915,10 @@ main{
   .PricingGrid{
     grid-template-columns: repeat(1,1fr);
     gap: 2rem;
+    justify-items: center;
+  }
+  .pricing-items{
+    margin-bottom: 50px;
   }
   .pricing-items-3{
     position: relative;
@@ -1007,6 +1011,22 @@ main{
 
   .promo-content .promoBtn{
     font-size: 18px;
+  }
+  /* Pricing Section */
+  .pricing-img-sec .pricing-title p{
+    font-size: 35px;
+  }
+
+  .pricing-img-sec .pricing-title h3{
+    font-size: 45px;
+  }
+
+  .pricing-content p{
+    font-size: 22px;
+  }
+
+  .pricingBtn{
+    padding: 12px 25px;
   }
 
 }
