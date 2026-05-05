@@ -535,6 +535,23 @@ main{
   .promo-content .desc{
     font-size: 23px;
   }
+
+  /* Pricing Section */
+  .PricingGrid{
+    gap: 1rem;
+  }
+
+  .pricing-img-sec .pricing-title p{
+    font-size: 35px;
+  }
+
+  .pricing-img-sec .pricing-title h3{
+    font-size: 45px;
+  }
+
+  .pricing-content p{
+    font-size: 23px;
+  }
 }
 @media (max-width: 992px) {
   /* Same Classes */
@@ -709,6 +726,36 @@ main{
 
   .promo-content .promoBtn{
     font-size: 19px;
+  }
+
+  /* Pricing Section */
+  .PricingGrid{
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+  }
+  .pricing-items-3{
+    position: relative;
+    left: 50%;
+  }
+
+  .pricing-img-sec .pricing-title p{
+    font-size: 40px;
+  }
+
+  .pricing-img-sec .pricing-title h3{
+    font-size: 50px;
+  }
+
+  .pricing-content{
+    margin-top: 60px;
+  }
+
+  .pricing-content p{
+    font-size: 25px;
+  }
+
+  .pricingBtn{
+    padding: 14px 28px;
   }
 }
 @media (max-width: 768px) {
