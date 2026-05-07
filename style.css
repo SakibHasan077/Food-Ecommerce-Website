@@ -438,6 +438,11 @@ main{
   gap: 1.5rem;
   margin: 110px 55px 0;
 }
+
+.blogItems img{
+  width: 100%;
+  height: fit-content;
+}
 /* Blog Section End */
 @media (max-width: 1200px) {
   /* First Nav  */
