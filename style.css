@@ -443,7 +443,20 @@ main{
   width: 100%;
   height: fit-content;
 }
+
+.blogItem-2 {
+  background-color: #f0f0f0;
+  padding: 40px 30px;
+}
+
+.blogItem-2 h3{
+  font-size: 31px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
 /* Blog Section End */
+
+/* Media Queries */
 @media (max-width: 1200px) {
   /* First Nav  */
   .firstNav{
