@@ -431,6 +431,14 @@ main{
   text-align: right;
 }
 /* Second Promo */
+/* Blog Section Start */
+.blogGrid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.5rem;
+  margin: 110px 55px 0;
+}
+/* Blog Section End */
 @media (max-width: 1200px) {
   /* First Nav  */
   .firstNav{
