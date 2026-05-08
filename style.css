@@ -437,6 +437,7 @@ main{
   grid-template-columns: repeat(3,1fr);
   gap: 1.5rem;
   margin: 110px 55px 0;
+  margin-bottom: 40px;
 }
 
 .blogItems img{
@@ -446,13 +447,24 @@ main{
 
 .blogItem-2 {
   background-color: #f0f0f0;
-  padding: 40px 30px;
+  padding: 35px 30px;
 }
 
 .blogItem-2 h3{
   font-size: 31px;
   font-weight: 600;
   color: var(--primary-color);
+  margin-bottom: 25px;
+}
+.blogItem-2 p{
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: var(--primary-color);
+}
+.blogBtn{
+  padding: 12px 25px;
+  font-size: 19px;
+  cursor: pointer;
 }
 /* Blog Section End */
 
