@@ -815,6 +815,31 @@ main{
   .pricingBtn{
     padding: 14px 28px;
   }
+  /* blog section  */
+  .blogGrid{
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+  }
+
+  .blogItem-2 {
+    padding: 15px 20px;
+  }
+
+  .blogItem-2 h3{
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .blogItem-2 h3 br, .blogItem-2 p br{
+    display: block;
+  }
+  .blogItem-2 p{
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .blogBtn{
+    padding: 11px 23px;
+    font-size: 18px;
+  }
 }
 @media (max-width: 768px) {
   /* Same Classes */
