@@ -1007,6 +1007,12 @@ main{
     position: relative;
     left: 0%;
   }
+  /* blog section  */
+  .blogGrid{
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+    justify-items: center;
+  }
 }
 @media (max-width: 576px) {
   /* Same Classes */
