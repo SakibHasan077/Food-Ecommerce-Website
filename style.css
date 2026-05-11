@@ -590,6 +590,26 @@ main{
   .pricing-content p{
     font-size: 23px;
   }
+  /* blog section  */
+  .blogItem-2 {
+    padding: 15px;
+  }
+
+  .blogItem-2 h3{
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  .blogItem-2 h3 br, .blogItem-2 p br{
+    display: none;
+  }
+  .blogItem-2 p{
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .blogBtn{
+    padding: 10px 22px;
+    font-size: 18px;
+  }
 }
 @media (max-width: 992px) {
   /* Same Classes */
