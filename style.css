@@ -467,7 +467,16 @@ main{
   cursor: pointer;
 }
 /* Blog Section End */
-
+/* Footer Section Start */
+footer{
+  background-color: violet;
+  background-image: url(./image/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+/* Footer Section End */
 /* Media Queries */
 @media (max-width: 1200px) {
   /* First Nav  */
