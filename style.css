@@ -469,12 +469,21 @@ main{
 /* Blog Section End */
 /* Footer Section Start */
 footer{
-  background-color: violet;
   background-image: url(./image/footer-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+footer .shape-img{
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  height: 100%;
+  width: 100%;
+
 }
 /* Footer Section End */
 /* Media Queries */
