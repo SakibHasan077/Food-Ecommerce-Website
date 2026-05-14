@@ -485,6 +485,12 @@ footer .shape-img{
   width: 100%;
 
 }
+footer .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
 /* Footer Section End */
 /* Media Queries */
 @media (max-width: 1200px) {
