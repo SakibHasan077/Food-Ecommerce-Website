@@ -491,8 +491,11 @@ footer .content{
   justify-content: center;
   align-items: center;
 }
+footer .content .logo-sec{
+  margin-top: 60px;
+}
 footer .content h2{
-  padding-top: 60px;
+  padding-top: 20px;
   font-size: 45px;
   color: var(--white);
   margin-bottom: 1rem;
@@ -509,7 +512,7 @@ footer .content .social-icon img{
 footer .content h3{
   font-size: 35px;
   color: var(--white);
-  margin-top: 35px;
+  margin-top: 30px;
 }
 /* Footer Section End */
 /* Media Queries */
