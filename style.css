@@ -488,8 +488,28 @@ footer .shape-img{
 footer .content{
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
+}
+footer .content h2{
+  padding-top: 60px;
+  font-size: 45px;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+footer .content p{
+  font-size: 25px;
+  color: var(--white);
+  margin-bottom: 30px;
+}
+footer .content .social-icon img{
+  margin-right: 10px;
+  cursor: pointer;
+}
+footer .content h3{
+  font-size: 35px;
+  color: var(--white);
+  margin-top: 35px;
 }
 /* Footer Section End */
 /* Media Queries */
