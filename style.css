@@ -890,13 +890,22 @@ footer .content h3{
   .blogBtn{
     padding: 11px 23px;
     font-size: 18px;
-  } 
+  }
   /* Footer */
     footer .shape-img{
       left: 5%;
     }
   footer .shape-img img{
     width: 90%;
+  }
+  footer .content h2{
+    font-size: 40px;
+  }
+  footer .content p{
+    font-size: 27px;
+  }
+  footer .content h3{
+    font-size: 30px;
   }
 }
 @media (max-width: 768px) {
@@ -1070,6 +1079,15 @@ footer .content h3{
     grid-template-columns: repeat(1,1fr);
     gap: 2rem;
     justify-items: center;
+  }
+  footer .content h2{
+    font-size: 35px;
+  }
+  footer .content p{
+    font-size: 22px;
+  }
+  footer .content h3{
+    font-size: 25px;
   }
 }
 @media (max-width: 576px) {
